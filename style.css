@@ -1,0 +1,174 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+header{
+    background-color: #6647BF;
+    width: 100%;
+    height: 100px;
+
+}
+a {
+    text-decoration: none;
+}
+.logo
+{
+    font-size: 42px;
+    text-align: center;
+    display: block;
+    margin: auto 1%;
+    padding: 15px 0;
+    font-weight: normal;
+    width: fit-content;
+}
+.mainpage {
+    width: 80%;
+    margin: 0 auto;
+}
+.maintitle {
+    background-color: #6647BF;
+    
+    margin: 30px auto;
+}
+.mainbuttons {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.mainbuttons div {
+    background-color: #6647BF;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    
+}
+.mainbuttons a {
+    background-color: #6647BF;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    font-size: 40px;
+    
+    
+}
+
+.calcbutton{
+    margin: auto 0 auto auto;
+}
+.aboutitem
+{
+    background-color: #6647BF;
+    margin: 15px 0;
+    width: 900px;
+    height: fit-content;
+}
+.aboutdesc{
+    background-color: #6647BF;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    height: fit-content;
+}
+.bad {
+    background-color: #6647BF;
+    margin: 15px 0;
+    height: fit-content;
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+h1 {
+text-align: center;
+font-size: 80px;
+}
+h2 {
+text-align: center;
+font-size: 50px;
+margin: 0 8%;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 26px;
+}
+.circle{
+    background-color: #13092D;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto 20px auto auto;
+}
+.mini{
+    width: 400px;
+    border-color: #13092D;
+    height: fit-content;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    left: 72%;
+}
+
+.circle p:hover + .mini{
+    transition: all .5s;
+    visibility: visible;
+    opacity: 1;
+
+}
+.mini p{
+    color: #6647BF;
+}
+.inputname{
+    background-color: #6647BF;
+    width: 900px;
+    height: fit-content;
+    position: relative;
+    margin: 15px 0;
+    display: flex;
+}
+.inputval{
+    width: 100px;
+    margin: 15px 10px;
+    border: 3px solid #6647BF;
+    height: 74px;
+    box-sizing: border-box;
+}
+.inputval h2{
+    color: #6647BF;
+}
+.inputname h2{
+    width: fit-content;
+    margin: auto 0 auto 20px;
+}
+ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type=text] {
+    margin: 15px 10px;
+    border: 3px solid #6647BF;
+    outline: none;
+    color: #6647BF;
+    font-size: 26px;
+    width: 100px;
+    padding: 0 5px;
+}
+button {
+    background-color: #6647BF;
+    border: none;
+    padding: 5px 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 20px 100px 20px 200px;
+    cursor: pointer;
+}
